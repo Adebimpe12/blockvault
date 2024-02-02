@@ -32,6 +32,14 @@ body{
     background-color: black;
 }
 
+.back{
+    background-image: url(img/image\ 12.png);
+}
+
+#lea{
+    background-color: rgba(255, 255, 255,0) ;
+}
+
 #peo{
     margin-top: 200px;
     margin-left: 100px;
@@ -73,4 +81,18 @@ body{
 
 #vau{
     float: right;
+}
+
+.lt{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.lt ul li{
+    list-style: none;
+}
+
+.lt ul li a{
+    text-decoration: none;
 }

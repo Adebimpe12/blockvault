@@ -3,13 +3,49 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    overflow-x: hidden;
 }
+
+.slack{
+    padding: 10px 0px;
+}
+
+#slack{
+    margin-right: 20px;
+}
+
+.blu{
+    background-color: rgb(13,157,219);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 15vh;
+}
+
+#per{
+    width: 5vh;
+    height: 5vh;
+}
+
+.navbar{
+    margin-left: 600px;
+}
+
+.navbar a {
+    color: white
+}
+
+#block{
+    width: 20vh;
+    padding: 2vh;
+}
+
 
 header{
   
     display: flex;
     justify-content: space-around;
-    
+    padding-top: 1vh;
     margin-bottom: 100px;
     padding-bottom: 100px;
 }
@@ -20,79 +56,26 @@ header ul{
 
 header ul li{
       list-style: none;
-      
+      margin-right:20px ;
 }
-
 header a{
     
     text-decoration: none;
 }
 
-body{
-    background-color: black;
-}
 
 .back{
     background-image: url(img/image\ 12.png);
+    height:110vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
-#lea{
-    background-color: rgba(255, 255, 255,0) ;
-}
-
-#peo{
-    margin-top: 200px;
-    margin-left: 100px;
-}
-
-#sec{
-    margin-left: 100px;
-}
-
-#con{
-    background-color: lightblue;
-}
-
-.bg{
-    background-color: black; 
-}
-
-#fra{
-    float: left;
-}
-
-#unk{
-    float: right;
-}
-
-.sub{
-    background-color: white;
-    height: 400px;
-    margin-top: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-bottom: 100px;
-}
-
-
-#flo{
-    float: left;
-}
-
-#vau{
-    float: right;
-}
-
-.lt{
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.lt ul li{
+footer ul li{
     list-style: none;
 }
-
-.lt ul li a{
+footer a{
+    color: white;
     text-decoration: none;
 }
